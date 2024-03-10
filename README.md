@@ -1,5 +1,5 @@
 ## syarifsoden
-Panduan [belajar pemrograman](https://www.syarifsoden.xyz/)untuk pemula, disertai dengan langkah-langkah dan tips yang berguna untuk memulai perjalanan Anda dalam dunia pemrograman. Temukan panduan lengkap belajar java, javascript, laravel, c++, web developer di sini.
+Panduan [belajar pemrograman](https://www.syarifsoden.xyz/) untuk pemula, disertai dengan langkah-langkah dan tips yang berguna untuk memulai perjalanan Anda dalam dunia pemrograman. Temukan panduan lengkap belajar java, javascript, laravel, c++, web developer di sini.
 
 ##
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
