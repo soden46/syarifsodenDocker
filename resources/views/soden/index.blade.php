@@ -3,10 +3,10 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Syarif Siden - Panduan Belajar Pemrograman Untuk Pemula</title>
+    <title>Syarif Soden - Panduan Belajar Pemrograman Untuk Pemula</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="Panduan Lengkap Belajar Java, Javascript, Laravel, C++, dasn Web Developer " name="keywords">
-    <meta content="Belajar Pemrograman" name="description">
+    <meta content="Panduan Lengkap Belajar Java, Javascript, Laravel, C++, dan Web Developer" name="keywords">
+    <meta content="Panduan belajar pemrograman untuk pemula, disertai dengan langkah-langkah dan tips yang berguna untuk memulai perjalanan Anda dalam dunia pemrograman. Temukan panduan lengkap belajar java, javascript, laravel, c++, web developer di sini." name="description">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -16,7 +16,6 @@
     <!-- Icon Font Stylesheet -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
-
     <!-- Libraries Stylesheet -->
     <link href="../animate/animate.min.css" rel="stylesheet">
     <link href="../owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
@@ -197,110 +196,57 @@
     <!-- Services End -->
 
     <!-- Blog Start -->
-    <!-- <div class="container-fluid blog py-5 mb-5">
-            <div class="container">
-                <div class="text-center mx-auto pb-5 wow fadeIn" data-wow-delay=".3s" style="max-width: 600px;">
-                    <h5 class="text-primary">Our Blog</h5>
-                    <h1>Latest Blog & News</h1>
+    <div class="container-fluid bg-light py-5">
+        <div class="container">
+            <div class="text-center mx-auto pb-5 wow fadeIn" data-wow-delay=".3s" style="max-width: 600px;">
+                <h5 class="text-primary">Artikel Belajar Pemrograman</h5>
+                <h2>Artikel Populer</h2>
+            </div>
+            <div class="row g-5">
+                <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".3s">
+                    <div class="card">
+                        <a href="https://www.syarifsoden.xyz/2024/02/belajar-javacript-untuk-pemula.html" class="card-link">
+                            <img src="../tutorial-belajar-javascript-untuk-pemula.png" class="card-img-top" alt="Roadmap Belajar Javascript">
+                            <div class="card-body">
+                                <h5 class="card-title">Tips Belajar Javascript Untuk Pemula: Roadmap Belajar Javascript</h5>
+                                <p class="card-text">JavaScript adalah bahasa pemrograman yang sangat penting dalam pengembangan web modern. Dengan menguasai JavaScript, Anda dapat membuat situs web interaktif, aplikasi web dinamis, dan bahkan aplikasi seluler.</p>
+                            </div>
+                        </a>
+                    </div>
                 </div>
-                <div class="row g-5 justify-content-center">
-                    <div class="col-lg-6 col-xl-4 wow fadeIn" data-wow-delay=".3s">
-                        <div class="blog-item position-relative bg-light rounded">
-                            <img src="img/blog-1.jpg" class="img-fluid w-100 rounded-top" alt="">
-                            <span class="position-absolute px-4 py-3 bg-primary text-white rounded" style="top: -28px; right: 20px;">Web Design</span>
-                            <div class="blog-btn d-flex justify-content-between position-relative px-3" style="margin-top: -75px;">
-                                <div class="blog-icon btn btn-secondary px-3 rounded-pill my-auto">
-                                    <a href="" class="btn text-white">Read More</a>
-                                </div>
-                                <div class="blog-btn-icon btn btn-secondary px-4 py-3 rounded-pill ">
-                                    <div class="blog-icon-1">
-                                        <p class="text-white px-2">Share<i class="fa fa-arrow-right ms-3"></i></p>
-                                    </div>
-                                    <div class="blog-icon-2">
-                                        <a href="" class="btn me-1"><i class="fab fa-facebook-f text-white"></i></a>
-                                        <a href="" class="btn me-1"><i class="fab fa-twitter text-white"></i></a>
-                                        <a href="" class="btn me-1"><i class="fab fa-instagram text-white"></i></a>
-                                    </div>
-                                </div>
+                <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".5s">
+                    <div class="card">
+                        <a href="https://www.syarifsoden.xyz/2024/02/panduan-dasar-dasar-javascript-untuk-pemula.html" class="card-link">
+                            <img src="../tutorial-dasar-javascript-untuk-pemula.png" class="card-img-top" alt="Belajar dasar-dasar javascript">
+                            <div class="card-body">
+                                <h5 class="card-title">Belajar Javascript Untuk Pemula: Dasar-Dasar javascript</h5>
+                                <p class="card-text">JavaScript adalah bahasa pemrograman yang kuat dan serbaguna yang digunakan untuk mengembangkan situs web interaktif dan dinamis. Dalam panduan ini, kami akan memandu Anda melalui dasar-dasar JavaScript secara langkah demi langkah, dari konsep dasar hingga penggunaan praktis dalam pengembangan web.</p>
                             </div>
-                            <div class="blog-content text-center position-relative px-3" style="margin-top: -25px;">
-                                <img src="img/admin.jpg" class="img-fluid rounded-circle border border-4 border-white mb-3" alt="">
-                                <h5 class="">By Daniel Martin</h5>
-                                <span class="text-secondary">24 March 2023</span>
-                                <p class="py-2">Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut interdum. Aliquam dolor eget urna ultricies tincidunt libero sit amet</p>
-                            </div>
-                            <div class="blog-coment d-flex justify-content-between px-4 py-2 border bg-primary rounded-bottom">
-                                <a href="" class="text-white"><small><i class="fas fa-share me-2 text-secondary"></i>5324 Share</small></a>
-                                <a href="" class="text-white"><small><i class="fa fa-comments me-2 text-secondary"></i>5 Comments</small></a>
-                            </div>
-                        </div>
+                        </a>
                     </div>
-                    <div class="col-lg-6 col-xl-4 wow fadeIn" data-wow-delay=".5s">
-                        <div class="blog-item position-relative bg-light rounded">
-                            <img src="img/blog-2.jpg" class="img-fluid w-100 rounded-top" alt="">
-                            <span class="position-absolute px-4 py-3 bg-primary text-white rounded" style="top: -28px; right: 20px;">Development</span>
-                            <div class="blog-btn d-flex justify-content-between position-relative px-3" style="margin-top: -75px;">
-                                <div class="blog-icon btn btn-secondary px-3 rounded-pill my-auto">
-                                    <a href="" class="btn text-white ">Read More</a>
-                                </div>
-                                <div class="blog-btn-icon btn btn-secondary px-4 py-3 rounded-pill ">
-                                    <div class="blog-icon-1">
-                                        <p class="text-white px-2">Share<i class="fa fa-arrow-right ms-3"></i></p>
-                                    </div>
-                                    <div class="blog-icon-2">
-                                        <a href="" class="btn me-1"><i class="fab fa-facebook-f text-white"></i></a>
-                                        <a href="" class="btn me-1"><i class="fab fa-twitter text-white"></i></a>
-                                        <a href="" class="btn me-1"><i class="fab fa-instagram text-white"></i></a>
-                                    </div>
-                                </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".7s">
+                    <div class="card">
+                        <a href="https://www.syarifsoden.xyz/2024/02/tutorial-memahami-dom-document-object-model-pada-javascript.html" class="card-link">
+                            <img src="../tutorial-dasar-javascript-untuk-pemula-dom.png" class="card-img-top" alt="Belajar DOM Javascript">
+                            <div class="card-body">
+                                <h5 class="card-title">Belajar Javascript Untuk Pemula: Pengertian DOM Javascript</h5>
+                                <p class="card-text">Apakah Anda ingin memahami bagaimana JavaScript dapat memanipulasi elemen HTML pada halaman web? Memahami DOM (Document Object Model) adalah kunci untuk menguasai pengembangan web dengan JavaScript.</p>
                             </div>
-                            <div class="blog-content text-center position-relative px-3" style="margin-top: -25px;">
-                                <img src="img/admin.jpg" class="img-fluid rounded-circle border border-4 border-white mb-3" alt="">
-                                <h5 class="">By Daniel Martin</h5>
-                                <span class="text-secondary">23 April 2023</span>
-                                <p class="py-2">Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut interdum. Aliquam dolor eget urna ultricies tincidunt libero sit amet</p>
-                            </div>
-                            <div class="blog-coment d-flex justify-content-between px-4 py-2 border bg-primary rounded-bottom">
-                                <a href="" class="text-white"><small><i class="fas fa-share me-2 text-secondary"></i>5324 Share</small></a>
-                                <a href="" class="text-white"><small><i class="fa fa-comments me-2 text-secondary"></i>5 Comments</small></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-xl-4 wow fadeIn" data-wow-delay=".7s">
-                        <div class="blog-item position-relative bg-light rounded">
-                            <img src="img/blog-3.jpg" class="img-fluid w-100 rounded-top" alt="">
-                            <span class="position-absolute px-4 py-3 bg-primary text-white rounded" style="top: -28px; right: 20px;">Mobile App</span>
-                            <div class="blog-btn d-flex justify-content-between position-relative px-3" style="margin-top: -75px;">
-                                <div class="blog-icon btn btn-secondary px-3 rounded-pill my-auto">
-                                    <a href="" class="btn text-white ">Read More</a>
-                                </div>
-                                <div class="blog-btn-icon btn btn-secondary px-4 py-3 rounded-pill ">
-                                    <div class="blog-icon-1">
-                                        <p class="text-white px-2">Share<i class="fa fa-arrow-right ms-3"></i></p>
-                                    </div>
-                                    <div class="blog-icon-2">
-                                        <a href="" class="btn me-1"><i class="fab fa-facebook-f text-white"></i></a>
-                                        <a href="" class="btn me-1"><i class="fab fa-twitter text-white"></i></a>
-                                        <a href="" class="btn me-1"><i class="fab fa-instagram text-white"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="blog-content text-center position-relative px-3" style="margin-top: -25px;">
-                                <img src="img/admin.jpg" class="img-fluid rounded-circle border border-4 border-white mb-3" alt="">
-                                <h5 class="">By Daniel Martin</h5>
-                                <span class="text-secondary">30 jan 2023</span>
-                                <p class="py-2">Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut interdum. Aliquam dolor eget urna ultricies tincidunt libero sit amet</p>
-                            </div>
-                            <div class="blog-coments d-flex justify-content-between px-4 py-2 border bg-primary rounded-bottom">
-                                <a href="" class="text-white"><small><i class="fas fa-share me-2 text-secondary"></i>5324 Share</small></a>
-                                <a href="" class="text-white"><small><i class="fa fa-comments me-2 text-secondary"></i>5 Comments</small></a>
-                            </div>
-                        </div>
+                        </a>
                     </div>
                 </div>
             </div>
-        </div> -->
+            <!-- Tombol Selengkapnya -->
+            <div class="row justify-content-center mt-5">
+                <div class="col-auto">
+                    <a href="https://syarifsoden.xyz" class="btn btn-primary">Tutorial Belajar Pemrograman Untuk Pemula</a>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- Blog End -->
+
 
     <!-- Footer Start -->
     <div class="container-fluid footer bg-dark wow fadeIn" data-wow-delay=".3s">
